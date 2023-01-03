@@ -9,6 +9,7 @@
     android:paddingTop="10dp"
     android:paddingEnd="10dp"
     android:paddingBottom="10dp"
+    app:layout_insetEdge="none"
     tools:context=".MainActivity">
 
     <TextView
@@ -27,6 +28,35 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
+        android:id="@+id/group0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/group1"
+        tools:layout_editor_absoluteX="10dp">
+
+        <Button
+            android:id="@+id/btnM_C"
+            style="@style/button_style"
+            android:text="@string/mc" />
+
+        <Button
+            android:id="@+id/btnM_Plus"
+            style="@style/button_style"
+            android:text="@string/m" />
+
+        <Button
+            android:id="@+id/btnM_Minus"
+            style="@style/button_style"
+            android:text="@string/m_Minus" />
+
+        <Button
+            android:id="@+id/btnM_R"
+            style="@style/button_style"
+            android:text="@string/mr" />
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/group1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,31 +65,24 @@
         tools:layout_editor_absoluteX="10dp">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnClr"
             style="@style/button_style"
-            android:text="mc" />
+            android:text="@string/btnClr" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnDiv"
             style="@style/button_style"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="m+" />
+            android:text="@string/btnDiv" />
 
         <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="M-" />
+            android:id="@+id/btnMul"
+            style="@style/button_style"
+            android:text="@string/btnMul" />
 
         <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Mr" />
+            android:id="@+id/btnDel"
+            style="@style/button_style"
+            android:text="@string/btnDel" />
     </LinearLayout>
 
     <LinearLayout
@@ -72,32 +95,24 @@
         tools:layout_editor_absoluteX="10dp">
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:id="@+id/btn4"
+            style="@style/button_style"
+            android:text="@string/btn4" />
 
         <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:id="@+id/btn5"
+            style="@style/button_style"
+            android:text="@string/btn5" />
 
         <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:id="@+id/btn6"
+            style="@style/button_style"
+            android:text="@string/btn6" />
 
         <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:id="@+id/btnPlus"
+            style="@style/button_style"
+            android:text="@string/btnPlus" />
     </LinearLayout>
 
     <LinearLayout
@@ -110,32 +125,25 @@
         tools:layout_editor_absoluteX="10dp">
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:id="@+id/btn1"
+            style="@style/button_style"
+            android:text="@string/btn1" />
 
         <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:id="@+id/btn2"
+            style="@style/button_style"
+            android:text="@string/btn2" />
 
         <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:id="@+id/btn3"
+            style="@style/button_style"
+            android:text="@string/btn3" />
 
         <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:id="@+id/btnCalc"
+            style="@style/button_style"
+            android:text="@string/btnCalc" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -150,32 +158,24 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:id="@+id/btnPercent"
+            style="@style/button_style"
+            android:text="@string/btnPercent" />
 
         <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:id="@+id/btn0"
+            style="@style/button_style"
+            android:text="@string/btn0" />
 
         <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:id="@+id/btnPoint"
+            style="@style/button_style"
+            android:text="@string/btnPoint" />
 
         <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:id="@+id/btnAns"
+            style="@style/button_style"
+            android:text="@string/btnAns" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

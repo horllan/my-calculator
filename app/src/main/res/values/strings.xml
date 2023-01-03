@@ -3,8 +3,38 @@
     <string name="display_screen">screen</string>
     <string name="screen_discription">displays the output of the buttons and the calculated results</string>
 
-<!--    group 1 button content-->
-<!--    group 2 button content-->
-<!--    group 3 button content-->
-<!--    group 4 button content-->
+    <!--    group 1 button content-->
+    <string name="btnM_C">Mc</string>
+    <string name="btnM_Plus">M+</string>
+    <string name="btnM_Minus">M-</string>
+    <string name="btnM_R">Mr</string>
+    <!--    group 2 button content-->
+    <string name="btnClr">C</string>
+    <string name="btnDiv">/</string>
+    <string name="btnMul">X</string>
+    <string name="btnDel">Del</string>
+    <!--    group 3 button content-->
+    <string name="btn7">7</string>
+    <string name="btn8">8</string>
+    <string name="btn9">9</string>
+    <string name="btnMinus">-</string>
+    <!--    group 4 button content-->
+    <string name="btn4">4</string>
+    <string name="btn5">5</string>
+    <string name="btn6">6</string>
+    <string name="btnPlus">+</string>
+    <!--    group 5 button content-->
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btnCalc">=</string>
+    <!--    group 6 button content-->
+    <string name="btnPercent">%</string>
+    <string name="btn0">0</string>
+    <string name="btnPoint">.</string>
+    <string name="btnAns">Ans</string>
+    <string name="mc">mc</string>
+    <string name="m">m+</string>
+    <string name="m_Minus">M-</string>
+    <string name="mr">Mr</string>
 </resources>
