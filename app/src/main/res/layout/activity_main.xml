@@ -28,6 +28,43 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
+        android:id="@+id/group00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/group0"
+        tools:layout_editor_absoluteX="10dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnM_C"
+            style="@style/button_style"
+            android:background="@drawable/button_background"
+            android:text="@string/mc"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnM_Plus"
+            style="@style/button_style"
+            android:background="@drawable/button_background"
+            android:text="@string/m"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnM_Minus"
+            style="@style/button_style"
+            android:background="@drawable/button_background"
+            android:text="@string/m_Minus"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnM_R"
+            style="@style/button_style"
+            android:background="@drawable/button_background"
+            android:text="@string/mr"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/group0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,28 +72,36 @@
         app:layout_constraintBottom_toTopOf="@+id/group1"
         tools:layout_editor_absoluteX="10dp">
 
-        <Button
-            android:id="@+id/btnM_C"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnClr"
             style="@style/button_style"
-            android:text="@string/mc" />
+            android:background="@drawable/button_background"
+            android:text="@string/btnClr"
+            android:textColor="@color/black" />
 
-        <Button
-            android:id="@+id/btnM_Plus"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDiv"
             style="@style/button_style"
-            android:text="@string/m" />
+            android:background="@drawable/button_background"
+            android:text="@string/btnDiv"
+            android:textColor="@color/black" />
 
-        <Button
-            android:id="@+id/btnM_Minus"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMul"
             style="@style/button_style"
-            android:text="@string/m_Minus" />
+            android:background="@drawable/button_background"
+            android:text="@string/btnMul"
+            android:textColor="@color/black" />
 
-        <Button
-            android:id="@+id/btnM_R"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDel"
             style="@style/button_style"
-            android:text="@string/mr" />
+            android:background="@drawable/button_background"
+            android:text="@string/btnDel"
+            android:textColor="@color/black" />
     </LinearLayout>
-
     <LinearLayout
+
         android:id="@+id/group1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -64,25 +109,33 @@
         app:layout_constraintBottom_toTopOf="@+id/group2"
         tools:layout_editor_absoluteX="10dp">
 
-        <Button
-            android:id="@+id/btnClr"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn7"
             style="@style/button_style"
-            android:text="@string/btnClr" />
+            android:background="@drawable/button_background"
+            android:text="@string/btn7"
+            android:textColor="@color/black" />
 
-        <Button
-            android:id="@+id/btnDiv"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn8"
             style="@style/button_style"
-            android:text="@string/btnDiv" />
+            android:background="@drawable/button_background"
+            android:text="@string/btn8"
+            android:textColor="@color/black" />
 
-        <Button
-            android:id="@+id/btnMul"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn9"
             style="@style/button_style"
-            android:text="@string/btnMul" />
+            android:background="@drawable/button_background"
+            android:text="@string/btn9"
+            android:textColor="@color/black" />
 
-        <Button
-            android:id="@+id/btnDel"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMinus"
             style="@style/button_style"
-            android:text="@string/btnDel" />
+            android:background="@drawable/button_background"
+            android:text="@string/btnMinus"
+            android:textColor="@color/black" />
     </LinearLayout>
 
     <LinearLayout
@@ -94,25 +147,33 @@
         app:layout_constraintBottom_toTopOf="@+id/group3"
         tools:layout_editor_absoluteX="10dp">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn4"
             style="@style/button_style"
-            android:text="@string/btn4" />
+            android:background="@drawable/button_background"
+            android:text="@string/btn4"
+            android:textColor="@color/black" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn5"
             style="@style/button_style"
-            android:text="@string/btn5" />
+            android:background="@drawable/button_background"
+            android:text="@string/btn5"
+            android:textColor="@color/black" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn6"
             style="@style/button_style"
-            android:text="@string/btn6" />
+            android:background="@drawable/button_background"
+            android:text="@string/btn6"
+            android:textColor="@color/black" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnPlus"
             style="@style/button_style"
-            android:text="@string/btnPlus" />
+            android:background="@drawable/button_background"
+            android:text="@string/btnPlus"
+            android:textColor="@color/black" />
     </LinearLayout>
 
     <LinearLayout
@@ -124,25 +185,33 @@
         app:layout_constraintBottom_toTopOf="@+id/group4"
         tools:layout_editor_absoluteX="10dp">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn1"
             style="@style/button_style"
-            android:text="@string/btn1" />
+            android:background="@drawable/button_background"
+            android:text="@string/btn1"
+            android:textColor="@color/black" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn2"
             style="@style/button_style"
-            android:text="@string/btn2" />
+            android:background="@drawable/button_background"
+            android:text="@string/btn2"
+            android:textColor="@color/black" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn3"
             style="@style/button_style"
-            android:text="@string/btn3" />
+            android:background="@drawable/button_background"
+            android:text="@string/btn3"
+            android:textColor="@color/black" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnCalc"
             style="@style/button_style"
-            android:text="@string/btnCalc" />
+            android:background="@drawable/button_background"
+            android:text="@string/btnCalc"
+            android:textColor="@color/black" />
 
     </LinearLayout>
 
@@ -157,25 +226,33 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnPercent"
             style="@style/button_style"
-            android:text="@string/btnPercent" />
+            android:background="@drawable/button_background"
+            android:text="@string/btnPercent"
+            android:textColor="@color/black" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn0"
             style="@style/button_style"
-            android:text="@string/btn0" />
+            android:background="@drawable/button_background"
+            android:text="@string/btn0"
+            android:textColor="@color/black" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnPoint"
             style="@style/button_style"
-            android:text="@string/btnPoint" />
+            android:background="@drawable/button_background"
+            android:text="@string/btnPoint"
+            android:textColor="@color/black" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnAns"
             style="@style/button_style"
-            android:text="@string/btnAns" />
+            android:background="@drawable/button_background"
+            android:text="@string/btnAns"
+            android:textColor="@color/black" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
