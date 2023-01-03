@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cpe302_Calculator</string>
+    <string name="display_screen">screen</string>
+    <string name="screen_discription">displays the output of the buttons and the calculated results</string>
+
+<!--    group 1 button content-->
+<!--    group 2 button content-->
+<!--    group 3 button content-->
+<!--    group 4 button content-->
+</resources>
