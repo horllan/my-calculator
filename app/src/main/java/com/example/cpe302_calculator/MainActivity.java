@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         initializeBtn();
     }
 
-    private void initializeBtn(){
+    private void initializeBtn() {
         btn0 = findViewById(R.id.btn0);
         btn1 = findViewById(R.id.btn1);
         btn2 = findViewById(R.id.btn2);
@@ -39,5 +39,37 @@ public class MainActivity extends AppCompatActivity {
         btnM_R = findViewById(R.id.btnM_R);
         btnM_R = findViewById(R.id.btnM_Plus);
         btnM_Add = findViewById(R.id.btnM_R);
+    }
+
+    private double addOperation(double... values) {
+        double temp = 0;
+        for (int i = 0; i < values.length; i++) {
+            temp += values[i];
+        }
+        return temp;
+    }
+
+    private double substractOperation(double... values) {
+        double temp = 0;
+        for (int i = 0; i < values.length; i++) {
+            temp -= values[i];
+        }
+        return temp;
+    }
+
+    private double multiplyOperation(double... values) {
+        double temp = 0;
+        for (int i = 0; i < values.length; i++) {
+            temp *= values[i];
+        }
+        return temp;
+    }
+
+    private double divideOperation(double... values) {
+        double temp = 0;
+        for (int i = 0; i < values.length; i++) {
+            temp /= values[i];
+        }
+        return temp;
     }
 }
