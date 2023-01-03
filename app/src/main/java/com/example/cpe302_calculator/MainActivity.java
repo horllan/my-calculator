@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         // initialize all the button by setting them to the respective resource id
         initializeBtn();
+
     }
 
     private void initializeBtn() {
@@ -39,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
         btnM_R = findViewById(R.id.btnM_R);
         btnM_R = findViewById(R.id.btnM_Plus);
         btnM_Add = findViewById(R.id.btnM_R);
+    }
+    private void addListerner(Button btn){
+        btn.setOnClickListener((it)->{
+            //
+        });
     }
 
     private double addOperation(double... values) {
