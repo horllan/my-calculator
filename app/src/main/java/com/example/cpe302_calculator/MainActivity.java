@@ -42,10 +42,13 @@ public class MainActivity extends AppCompatActivity {
         btnM_Add = findViewById(R.id.btnM_R);
     }
     private void addListerner(Button btn){
-        btn.setOnClickListener((it)->{
-            //
+        btn.setOnClickListener(()->{
+            screen.setText(screen.getText().toString() + btn.getTextbtnbtn.getText());
+
+)
         });
-    }
+
+  
 
     private double addOperation(double... values) {
         double temp = 0;
@@ -77,5 +80,6 @@ public class MainActivity extends AppCompatActivity {
             temp /= values[i];
         }
         return temp;
+     
     }
 }
