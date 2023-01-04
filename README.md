@@ -10,7 +10,7 @@ Calculator Application based on Object Oriented Programming in Java it can do ba
 ### App Walk-though
 
 #### App Screenshot 
-<img src="https://i.imgur.com/aEdbqcj.gif" width=200><br>
+<img src="https://i.imgur.com/PbpEcSg.jpg" width=200><br>
 
 `TODO://` I also which to implements scientific mode to enhance app. 
 
